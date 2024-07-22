@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <p><h1>สมัคร</h1></p> 
+        <h5>ง่ายและเร็ว</h5>
+        <hr>
+        <label for="fname">ชื่อ</label>
+        <input id="fname" value="" placeholder="ชื่อ"><br>
+        <label for="lname">นามสกุล</label>
+        <input id="lname" value="" placeholder="นามสกุล"><br>
+        <label for="number">หมายเลขโทรศัพท์มือถือหรืออีเมล</label>
+        <input id="number" value="" placeholder="หมายเลขโทรศัพท์มือถือหรืออีเมล"><br>
+        <label for="npassword">รหัสผ่านใหม่</label>
+        <input id="npassword" type="password" value="" placeholder="รหัสผ่านใหม่">
+        <br>
+        <label for="birthdate">วันเกิด</label><br>
+        <select id="birthdate-day">
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+            <option>6</option>
+            <option>7</option>
+            <option>8</option>
+            <option>9</option>
+            <option>10</option>            
+        </select>
+        <select id="birthdate-month">
+            <option>มกราคม</option>
+            <option>กุมภาพันธ์</option>
+            <option>มีนาคม</option>
+            <option>เมษายน</option>
+            <option>พฤษภาคม</option>
+            <option>มิถุนายน</option>
+            <option>กรกฎาคม</option>
+            <option>สิงหาคม</option>
+            <option>กันยายน</option>
+            <option>ตุลาคม</option>
+            <option>พฤศจิกายน</option>
+            <option>ธันวาคม</option>
+        </select>
+        <select id="birthdate-year">
+            <option>2022</option>
+            <option>2023</option>
+        </select>
+        <br>    
+        เพศ
+        <br>
+        <input type="radio" name="gender" value="ชาย">
+        <label>ชาย</label>
+        <input type="radio" name="gender" value="หญิง">
+        <label>หญิง</label>
+        <input type="radio" name="gender" value="อื่นๆ">
+        <label>อื่นๆ</label>
+        <br>
+        หมายเหตุ
+        <textarea name="message" cols="80" rows="20"></textarea>
+        <br>
+        <input type="submit" value="ส่งข้อมูล">
+    </form>
+</body>
+</html>
