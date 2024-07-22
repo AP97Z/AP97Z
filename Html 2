@@ -1,0 +1,92 @@
+!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="day3ex2.css" type="text/css">
+    <meta name="viewport" content="width=device-width">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="output_width"></div>
+    <div id="container">
+        <header class="main-header">
+            <img id="logo" src="camt_horizontal.png" alt="Resproject" />
+            <nav class="main-nav">
+                <ul>
+                    <li><a class="active" href="#">Home</a></li>
+                    <li><a href="#">Learn</a></li>
+                    <li><a href="#">Brainstorm</a></li>
+                    <li><a href="#">Create</a></li>
+                    <li><a href="#">Collaborate</a></li>
+                    <li><a href="#">Teach</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div id="main">
+            <div id="content">
+                <article class="art1">
+                    <header class="art-header">
+                        <h2 class="title"><a href="#">First Post</a></h2>
+                        <span>Create by : Thinnapop Srisomboon on 13 October </span>
+                    </header>
+                    <p>Despite multiple complications and her near-death experience
+                        I often see the time 11:11 or 12:34 on clocks.
+                        I just wanted to tell you I could see the love you have for your child by the way you look at
+                        her.
+                        Always bring cinnamon buns on a deep-sea diving expedition.
+                        As he dangled from the rope deep inside the crevasse
+                        On each full moon
+                        Iron pyrite is the most foolish of all minerals.
+                        Bill ran from the giraffe toward the dolphin.</p><a class="readmore" href="#">read more</a>
+                </article>
+                <article class="art2">
+                    <header class="art-header">
+                        <h2 class="title"><a href="#">Second Post</a></h2>
+                        <span>Create by : Thinnapop Srisomboon on 13 October </span>
+                    </header>
+                    <p>People keep telling me "orange" but I still prefer "pink".
+                        Trash covered the landscape like sprinkles do a birthday cake.
+                        As the rental car rolled to a stop on the dark road, her fear increased by the moment.
+                        Mom didn't understand why no one else wanted a hot tub full of jello.
+                        The water flowing down the river didn't look that powerful from the car
+                        There were three sphered rocks congregating in a cubed room.
+                        He had accidentally hacked into his company's server.
+                        He walked into the basement with the horror movie from the night before playing in his head.
+                        I am counting my calories, yet I really want dessert.
+                        Lightning Paradise was the local hangout joint where the group usually ended up spending the
+                        night.
+                        The Japanese yen for commerce is still well-known.
+                        Getting up at dawn is for the birds.
+                        Love is not like pizza.</p><a class="readmore" href="#">read more</a>
+                </article>
+            </div>
+            <aside id="sidebar">
+                <div class="block">
+                    <h2>Top sidebar</h2>
+                    <p>She had a habit of taking showers in lemonade.
+                        If you really strain your ears, you can just about hear the sound of no one giving a damn.</p>
+                </div>
+                <div class="block">
+                    <h2>Mid sidebar</h2>
+                    <p>The crowd yells and screams for more memes.
+                        Homesickness became contagious in the young campers' cabin.</p>
+                </div>
+                <div class="block">
+                    <h2>Bottom sidebar</h2>
+                    <p>You bite up because of your lower jaw.
+                        The furnace repairman indicated the heating system was acting as an air conditioner.</p>
+                </div>
+            </aside>
+            <div class="clr"></div>
+            <footer>
+                <p>Copyright &copy; 2022 Responsive Project</p>
+            </footer>
+        </div>
+    </div>
+</body>
+
+</html>
